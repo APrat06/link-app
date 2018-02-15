@@ -27,7 +27,7 @@ onSubmit(event){
                 <form onSubmit={this.onSubmit.bind(this)} noValidate className="boxed-view__form">
                     <input type="email" ref='email' name="email" placeholder="Email"/>
                     <input type="password" ref='password' name="password" placeholder="Password"/>
-                    <button>Create account</button>
+                    <button className="button">Create account</button>
                 </form>
                 <p><Link to="/">Got an account?</Link></p>
             </div>
