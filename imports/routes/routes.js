@@ -6,7 +6,7 @@ import {Link} from 'react-router-dom';
 import createHistory from 'history/createBrowserHistory';
 import Signup from '../ui/Signup';
 import Linka from '../ui/Link';
-import notFound from '../ui/notFfound';
+import notFound from '../ui/notFound';
 import Login from '../ui/Login';
 
 const history = createHistory();
